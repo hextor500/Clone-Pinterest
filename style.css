@@ -1,0 +1,460 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99;
+}
+
+#navbar-pinterest {
+    width: 97vw;
+    height: 80px;
+    padding: 4px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pinterest-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin: 0px 5px 0px 5px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+}
+
+.create-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px 0px 5px;
+    height: 48px;
+    width: 80px;
+    border-radius: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#home-button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 24px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    padding: 0px 16px 0px 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+#create-button {
+    border: none;
+    background-color: white;
+    color: black;
+    height: 40px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.finder-enclosure {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(233, 233, 233, 255);
+    width: 75vw;
+    height: 48px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.finder-icon {
+    padding: 10px;
+    margin: 5px;
+    fill: #5f5f5f;
+}
+
+.finder {
+    width: 65vw;
+    border: none;
+    background-color: rgba(233, 233, 233, 255);
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    fill: #5f5f5f;
+}
+
+#notification {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#message {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#profile-img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-button {
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    background-color: rgba(233, 233, 233, 255);
+    cursor: pointer;
+}
+
+#arrow-icon-account {
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+main {
+    width: 91vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    columns: 7;
+}
+
+.card-image {
+    width: 236px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+    break-inside: avoid;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    cursor: zoom-in;
+}
+
+.image-transform {
+    position: relative;
+    border-radius: 15px;
+    z-index: 10;
+}
+
+.save-button {
+    position: absolute;
+    border: none;
+    background-color: #e60023;
+    color: white;
+    font-size: 16px;
+    height: 48px;
+    border-radius: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 16px 0px 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    align-self: flex-start;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.options-icon {
+    position: absolute;
+    padding: 8px 8px 8px 8px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    z-index: 5;
+    cursor: pointer;
+
+}
+
+.download-icon {
+    position: absolute;
+    padding: 8px 8px 8px 8px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 100%;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+/* PSEUDO CLASES */
+
+.pinterest-icon:hover {
+    background-color: rgba(233, 233, 233, 255);
+}
+
+#notification:hover {
+    background-color: rgba(233, 233, 233, 255);
+}
+
+#message:hover {
+    background-color: rgba(233, 233, 233, 255);
+}
+
+#profile-img:hover {
+    background-color: rgba(233, 233, 233, 255);
+}
+
+#arrow-icon-account:hover {
+    background-color: rgba(233, 233, 233, 255);
+}
+
+.image-transform:hover {
+    filter: brightness(70%);
+    z-index: -1;
+    transition: all 1.5s;
+}
+
+.save-button:hover {
+    background-color: #ad081b;
+    z-index: 15;
+}
+
+.options-icon:hover {
+    opacity: 1;
+    z-index: 15;
+}
+
+.download-icon:hover {
+    opacity: 1;
+    z-index: 15;
+}
+
+#home-button:focus {
+    outline: 4px rgba(0, 132, 255, .5) solid;
+}
+
+.create-group:focus {
+    outline: 4px rgba(0, 132, 255, .5) solid;
+}
+
+#create-button:focus {
+    outline: none;
+
+}
+
+.pinterest-icon:focus {
+    outline: none;
+}
+
+.save-button:focus {
+    background-color: #ad081b;
+    z-index: 15;
+    outline: none;
+}
+
+.options-icon:hover {
+    opacity: 1;
+    z-index: 15;
+    outline: none;
+}
+
+.download-icon:hover {
+    opacity: 1;
+    z-index: 15;
+    outline: none;
+}
+
+#notification:focus {
+    outline: 4px rgba(0, 132, 255, .5) solid;
+}
+
+#message:focus {
+    outline: 4px rgba(0, 132, 255, .5) solid;
+}
+
+#profile-img:focus {
+    outline: 4px rgba(0, 132, 255, .5) solid;
+}
+
+#arrow-icon-account:focus {
+    outline: 4px rgba(0, 132, 255, .5) solid;
+}
+
+.finder-enclosure:focus {
+    outline: 4px rgba(0, 132, 255, .5) solid;
+}
+
+.finder:focus {
+    outline: none;
+}
+
+
+.card-image:focus {
+    outline: none;
+    filter: brightness(70%);
+    z-index: -1;
+    transition: all 1.5s;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1980px) {
+    main {
+        columns: 7;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    main {
+        columns: 6;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    #navbar-pinterest {
+        width: 96vw;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+    main {
+        columns: 5;
+        width: 88vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    #navbar-pinterest {
+        width: 94vw;
+        justify-content: none;
+    }
+
+    .finder-enclosure {
+        width: 70vw;
+    }
+
+    .finder {
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    main {
+        columns: 4;
+        padding-left: 40px;
+    }
+
+    #navbar-pinterest {
+        width: 94vw;
+    }
+
+    .finder-enclosure {
+        width: 60vw;
+    }
+
+    .finder {
+        width: 48vw;
+    }
+
+}
+
+@media screen and (max-width: 1070px) {
+    main {
+        columns: 3;
+        padding-left: 40px;
+    }
+
+    #navbar-pinterest {
+        width: 93vw;
+    }
+
+    .finder-enclosure {
+        width: 50vw;
+    }
+
+    .finder {
+        width: 30vw;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+    main {
+        columns: 2;
+    }
+
+    #navbar-pinterest {
+        width: 85vw;
+    }
+
+    .finder-enclosure {
+        width: 20vw;
+    }
+
+    .finder {
+        width: 3vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    main {
+        columns: 2;
+        padding-left: 10px;
+        padding-right: 0px;
+        width: 97vw;
+    }
+
+    #navbar-pinterest {
+        width: 85vw;
+    }
+
+    .finder-enclosure {
+        width: 20vw;
+    }
+
+    .finder {
+        display: none;
+    }
+}

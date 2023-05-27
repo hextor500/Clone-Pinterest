@@ -250,10 +250,9 @@ main {
     background-color: rgba(233, 233, 233, 255);
 }
 
-.image-transform:hover {
+.card-image:hover .image-transform {
     filter: brightness(70%);
     z-index: -1;
-    transition: all 1.5s;
 }
 
 .save-button:hover {
@@ -331,11 +330,10 @@ main {
 }
 
 
-.card-image:focus {
+.card-image:focus .image-transform {
     outline: none;
     filter: brightness(70%);
     z-index: -1;
-    transition: all 1.5s;
 }
 
 /* Media Query */
